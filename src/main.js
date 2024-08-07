@@ -13,7 +13,7 @@ import '@/assets/styles.scss';
 import '@/assets/tailwind.css';
 import axios from 'axios';
 
-axios.defaults.baseURL = 'http://localhost:8082/api/';
+axios.defaults.baseURL = 'http://103.74.5.21:8085/api/';
 
 const app = createApp(App);
 

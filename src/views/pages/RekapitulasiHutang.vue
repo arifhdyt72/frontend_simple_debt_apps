@@ -5,7 +5,7 @@ import axios from 'axios';
 export default {
     data() {
         return {
-            baseUrl: "http://localhost:8082/",
+            baseUrl: "http://103.74.5.21:8085/",
             hutangs: null,
             pembayaran: {},
             totalRecords: 0,
